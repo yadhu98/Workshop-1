@@ -4,17 +4,19 @@
     
 } */
 html{
-    width: 1440px;
-    height: 3416px;
-    margin: 0px;
+    width: 1200px;
+    height: 3650px;
+    /* margin: 0px auto; */
     padding: 0px;
+    /* margin-right: 0; */
+
 }
 
 .logo{
     display: block;
     margin: 0 auto;
     /* flex-direction: column-reverse; */
-    width: 1440;
+    width: 1200;
     height: 72px;
     /* justify-content: center; */
     
@@ -74,12 +76,23 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 #Login-Reg-text{
+    left: 150px;
+    /* margin-left: 30px; */
     margin-left: 30px;
-    margin-right:70px;
+    margin-right:40px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* #after-search-box{
+    display: inline-flex;
+} */
+#expert-image{
+    position: relative;
+    left: 757px;
+    top: -350px;
+    width: 555px;
+    height: 833px;
+}
 #heading-body1{
     font-size: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -124,25 +137,94 @@ html{
     position: relative;
     height: 850px;
     width: 1440px;
+    top: 1691px;
     background-image: linear-gradient(180deg, #E4FAF4 0%, #FFFFFF 100%);
 }
+#pagefour-pt1{
+    position: absolute;
+    display: flex;
+    background-color: #FFFFFF;
+}
+#footer-pt2{
+    display: flex;
+    box-shadow: 0 -35px 20px 0 rgba(0, 0, 0, 0.03);
+}
+#Manage-ur-investment{
+    position: relative;
+    /* top:1964px; */
+    top: 1800px;
+    left: 350px;
+    font-size:30px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222222;
+    line-height: 35.96px;
+  text-align: center;
+}
+#now-you-will-be-at-e{
+    position: relative;
+    top:1856px;
+    left: -135px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    opacity:  0.699999988079071;
+    width: 414px;
+  text-align: center;
+}
+#download-the-app-now{
+    position: relative;
+    color: #222222;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  line-height: 28.77px;
+  text-align: center;
+  top:2036px;
+  left: -480px;
+  font-weight: 600;
+}
+#apple-store{
+    position: absolute;
+    top:2100px ;
+    left: 435px;
+}
+#play-store{
+    position: absolute;
+    top: 2100px;
+    left: 630px;
+}
+#chat-icon{
+    position: absolute;
+    top: 2100px;
+    left: 1050px;
+}
+#pagethree-body{
+    position: relative;
+    height: 850px;
+    width: 1440px;
+    top: 1691px;
+    /* background-image: linear-gradient(180deg, #E4FAF4 0%, #FFFFFF 100%); */
+}   
 #you-can-schedule{
     position: absolute;
     margin-top: 60px ;
     width: 411px;
     color: #222222;
-    font-family: Avenir;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
     line-height: 29px;
     opacity: 0.699999988079071;
     text-align: left;
 }
 #ask-expert-bigdiv{
+    /* border: 1px solid black; */
+    width: 800px;
+    height: 500px;
     position: absolute;
-    display: flex;
-    margin-top:1852px;
-    margin-left: 150px;
-    
+    display: flex;  /* margin-top:1852px; */
+    margin-left:150px;
+    top:161px;
+    /* top:1691px; */
     /* width: 500px; */
 }
 #ask-the-expert-text{
@@ -152,18 +234,414 @@ html{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     line-height: 52px
 }
+#investing-made-easy-div{
+    /* border: 2px solid black; */
+    position: absolute;
+    display: flex;
+    top:151px;
+    width:260px;
+    height: 349px;
+}
+#cash-icon{
+    background-color: #E8F9F5;
+  border-radius: 4px
+    position: absolute;
+    width: 25px;
+    height: 30px;
+}
+#investing-made-easy-head{
+    position: absolute;
+    top: 96px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222222;
+  /* font-family: FuturaBT; */
+  font-size: 24px;
+  line-height: 28.77px;
+  text-align: left;
+}
+#investing-made-easy-des{
+    position: absolute;
+    top:145px;
+    color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 29px;
+  
+  opacity: 0.699999988079071;
+  width: 260px;
+  text-align: left;
+}
+#Invest-Now{
+    position: absolute;
+    top:297px;
+    background-color: #00D09C;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+  width: 159px;
+  height: 52px;
+  color: white;
+  border: none;
+}
+/*  */
+#schedule-a-meeting-div{
+    /* border: 2px solid black; */
+    position: absolute;
+    display: flex;
+    top:151px;
+    width:260px;
+    height: 349px;
+    left: 300px;
+}
+#schedule-icon{
+    background-color: #E8F9F5;
+  border-radius: 4px;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+}
+#schedule-a-meeting-head{
+    position: absolute;
+    top: 96px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #222222;
+  /* font-family: FuturaBT; */
+  font-size: 24px;
+  line-height: 28.77px;
+  text-align: left;
+}
+#schedule-a-meeting-des{
+    position: absolute;
+    top:145px;
+    color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 29px;
+  
+  opacity: 0.699999988079071;
+  width: 260px;
+  text-align: left;
+}
+#schedule-now-btn{
+    position: absolute;
+    top:297px;
+    background-color: #00D09C;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+  width: 159px;
+  height: 52px;
+  color: white;
+  border: none;
+}
+#logo-below{
+    position: absolute;
+    top: 3300px;
+    left:151px;
+}
+#quick-link{
+    display: flex;
+    position: absolute;
+    
+
+}
+#quick-links-heading{
+    position: absolute;
+    top: 3300px;
+    left: 600px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+#Explore-Funds{
+    position: absolute;
+    top: 3330px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#Direct-Mutal-Funds{
+    position: absolute;
+    top: 3360px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+
+}
+#Personal-Loan{
+    position: absolute;
+    top: 3390px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+
+}
+#LoanPass{
+    position: absolute;
+    top: 3420px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+
+}
+#write-to-us-head{
+    position: absolute;
+    top: 3460px;
+    left: 600px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+
+}
+#contact-neofund{
+    position: absolute;
+    top: 3490px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+
+#top-funded-houses-heading{
+    position: absolute;
+    top: 3300px;
+    left: 900px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+
+}
+#sbi-mutal-fund{
+    position: absolute;
+    top: 3330px;
+    left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+
+}
+#hdfc-mutal-fund{
+    position: absolute;
+    top: 3360px;
+    left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#reliance-mutal-fund{
+    position: absolute;
+    top: 3390px;
+    left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#l-t-mutal-fund{
+    position: absolute;
+    top: 3420px;
+    left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#call-us-at-heading{
+    position: absolute;
+    top: 3460px;
+    left: 900px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+
+#cnt91-8130813864-91-8{
+    position: absolute;
+    top: 3490px;
+    left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#resources-head{
+    position: absolute;
+    top: 3300px;
+    left: 1200px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+#calculators{
+    position: absolute;
+    top: 3330px;
+    left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#beginners-guide{
+    position: absolute;
+    top: 3360px;
+    left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#sitemap{
+    position: absolute;
+    top: 3390px;
+    left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#download-the-app-head{
+    position: absolute;
+    top: 3460px;
+    left: 1200px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+    width: 152px;
+}
+#apple-logo{
+    position: absolute;
+    top: 3490px;
+    left: 1200px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+#google-logo{
+    position: absolute;
+    top: 3490px;
+    left: 1240px;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+}
+#copyright-2019-mutal{
+    position: absolute;
+    top: 3580px;
+    left: 150px;
+    color: #222222;
+  font-family: Avenir;
+  font-size: 12px;
+  line-height: 30px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#social1{
+    position: absolute;
+    top: 3580px;
+    left: 1190px;
+    color: #222222;
+  font-family: Avenir;
+  font-size: 12px;
+  line-height: 30px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+
+#social2{
+    position: absolute;
+    top: 3580px;
+    left: 1220px;
+    color: #222222;
+  font-family: Avenir;
+  font-size: 12px;
+  line-height: 30px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+#social3{
+    position: absolute;
+    top: 3580px;
+    left: 1250px;
+    color: #222222;
+  font-family: Avenir;
+  font-size: 12px;
+  line-height: 30px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+
+#social4{
+    position: absolute;
+    top: 3580px;
+    left: 1280px;
+    color: #222222;
+  font-family: Avenir;
+  font-size: 12px;
+  line-height: 30px;
+  opacity: 0.699999988079071;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+/*  */
+
 #endpage1{
     display: flex;
     position: absolute;
     width: 1440px;
     height:185px ;
      bottom: -265px;
-    justify-content: end;
+    justify-content: start;
     background-color:#E4FAF4;
     
 }
 #trusted-text{
-    /* display: inline-block; */
+    display: block;
     margin-top: 37px;
     margin-left:100px;
     color: #222222;
@@ -368,6 +846,60 @@ position: relative;
   color: white;
 
 }
+#investing1{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 750px;
+    top: 60px;
+}
+#atr-823742{
+    position: absolute;
+    left: 740px;
+    top:130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+  opacity: 0.699999988079071;
+  text-align: center;
+}
+#investing2{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 900px;
+    top: 60px;
+}
+#ina-2000382{
+    position: absolute;
+    left: 890px;
+    top:130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+  opacity: 0.699999988079071;
+  text-align: center;
+}
+#investing3{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1050px;
+    top: 60px;
+}
+#m-code-2384{
+    position: absolute;
+    left: 1030px;
+    top:130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+  opacity: 0.699999988079071;
+  text-align: center;
+}
+
+
+
 #button-know-more-extra{
     display: flex;
     position: absolute;
@@ -511,3 +1043,26 @@ position: relative;
     line-height: 34px;
     text-align: center;
 }
+.checkbox-container{
+    /* display: block; */
+  /* position: relative; */
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkbox-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #00d09c;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
